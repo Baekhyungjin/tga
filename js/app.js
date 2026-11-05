@@ -1,4 +1,4 @@
-/* TGA public site: Firestore-powered forms, board, gallery, courses, events */
+/* TGU public site: Firestore-powered forms, board, gallery, courses, events */
 import { ready, db, collection, doc, getDocs, setDoc, addDoc, query, where, serverTimestamp } from './fb.js';
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
@@ -122,7 +122,7 @@ async function board(){
   if(id){
     const data=posts.find(p=>p.id===id);
     if(!data){root.innerHTML='<p class="empty">This post was not found.</p><p><a class="btn btn-line" href="board.html">Back to board</a></p>';return}
-    document.title=data.title+' | Trinity Global Academy';
+    document.title=data.title+' | Trinity Global University';
     root.innerHTML='<article class="post"><span class="tag">'+esc(LABEL.board[data.board]||data.board)+'</span><h2>'+esc(data.title)+'</h2><div class="post-meta">'+fmtDate(data.published_at)+' &middot; '+esc(data.author)+'</div><div class="post-body">'+linkify(data.body)+'</div>'
       +(data.attachment_url&&/^https?:\/\//i.test(data.attachment_url)?'<p><a class="btn btn-line" target="_blank" rel="noopener" href="'+esc(data.attachment_url)+'">'+esc(data.attachment_name||'Download attachment')+'</a></p>':'')+'<p><a class="btn btn-primary" href="board.html">Back to board</a></p></article>';
     return;

@@ -1,4 +1,4 @@
-/* TGA language switch (EN / KO). English is the source text in the HTML; Korean is applied from js/i18n-ko.js. */
+/* TGU language switch (EN / KO). English is the source text in the HTML; Korean is applied from js/i18n-ko.js. */
 (function(){
 'use strict';
 var KO=window.TGU_KO||{};
@@ -17,7 +17,7 @@ function lookup(key){
   if(m=key.match(/^([A-Z][a-z]{2}) (\d{1,2}), (\d{4})$/)){var mo='JanFebMarAprMayJunJulAugSepOctNovDec'.indexOf(m[1])/3+1;if(mo>=1)return m[3]+'년 '+mo+'월 '+m[2]+'일'}
   return null;
 }
-function rebrand(v){return v.replace(/Trinity Global University/g,'Trinity Global Academy').replace(/트리니티국제대학교/g,'트리니티국제아카데미').replace(/\bTGU\b/g,'TGA')}
+function rebrand(v){return v.replace(/Trinity Global Academy/g,'Trinity Global University').replace(/트리니티국제아카데미/g,'트리니티국제대학교').replace(/\bTGA\b/g,'TGU').replace(/T\.G\.A/g,'T.G.U')}
 function trNode(n){
   var v=n.nodeValue;if(!v||!v.trim())return;
   var branded=rebrand(v);var ko=lang==='ko'?lookup(branded)||branded:branded;if(ko===v)return;

@@ -276,9 +276,14 @@ html[lang=ko] .page-hero h1{font-size:clamp(2rem,4.4vw,3.4rem)}
 @media(max-width:1200px){.brand{order:1}.lang{order:2;margin-left:auto;margin-right:8px}.burger{order:3}}
 @media(max-width:400px){.lang button{padding:6px 9px;font-size:.8rem}}
 
-/* TGA revised message and supplied event photographs */
+/* TGU revised message and supplied event photographs */
 .president-hero{background-position:center 12%}
 .about-hero{background-position:center 68%}
 .pres .msg p{line-height:1.95;word-break:keep-all;overflow-wrap:anywhere}
 .pres .msg .mission-goal{padding:1rem 1.2rem;background:var(--soft,#f4f6f9);border-left:3px solid var(--gold);border-radius:0 10px 10px 0}
 @media(max-width:720px){.president-hero{background-position:37% center}.about-hero{background-position:center 68%}.pres .msg p{font-size:1.03rem;line-height:1.9}}
+
+/* Preserve complete supplied photographs, including the studio credit. */
+.docx-photo .ph{background:var(--navy-d)}
+.docx-photo .ph img{object-fit:contain}
+.person img.vp-formal-photo{object-fit:contain;background:#fff}

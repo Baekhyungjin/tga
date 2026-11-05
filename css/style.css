@@ -286,4 +286,4 @@ html[lang=ko] .page-hero h1{font-size:clamp(2rem,4.4vw,3.4rem)}
 /* Preserve complete supplied photographs, including the studio credit. */
 .docx-photo .ph{background:var(--navy-d)}
 .docx-photo .ph img{object-fit:contain}
-.person img.vp-formal-photo{object-fit:contain;background:#fff}
+.person img.vp-formal-photo{object-fit:cover;object-position:center top;background:#fff}

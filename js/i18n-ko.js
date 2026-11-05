@@ -376,7 +376,6 @@ window.TGU_KO = {
  "TGU was established as a Korean branch of Chilchil International University (CCGU) of India, through a joint-degree program with CCGU.": "인도의 칠칠국제대학(CCGU)과 공동학위 프로그램으로 한국의 칠칠 분교 형식으로 세워진 학교입니다.",
  "The school began its early ministry as an institution that intensively trained doctoral students from universities across India. It educated not only the students sent by Indian universities but also missionaries serving around the world, providing retraining and doctoral studies. It also sought out respected missionaries who had served faithfully on the mission field for many years and awarded them honorary doctorates, in recognition of their encouragement, labor and devotion, and committed itself to more effective mission work.": "학교에서는 인도 각 지역 대학의 박사학위과정 학생들을 인텐시브로 교육하는 기관으로 초기 사역을 시작했고, 인도 대학에서 보내 온 학생들뿐만 아니라 세계 각국에서 선교하고 있는 선교사들의 재교육과 박사학위 공부를 시키고, 오랫동안 선교지에서 신실하게 선교한 존경받는 선교사들을 발굴하여 격려와 수고, 헌신을 담아 명예박사학위를 줌으로써 보다 효과적인 선교를 하는 일에 헌신했습니다.",
  "Honorary doctorates were conferred jointly with the president of CCGU.": "명예박사학위는 칠칠국제대학 총장과 함께 학위를 수여했습니다.",
- "After the second president took office, the rapidly changing educational situation in India brought that ministry to an end. The school signed an MOU with Harvest University, which was already operating as an online school, and changed its name to Trinity Global University (T.G.U). It agreed to share all of Harvest University's existing systems (website, library, and more), and will operate as a tuition-free seminary that raises future leaders with spiritual depth from many nations.": "2대 총장이 취임한 후 인도의 급변하는 교육 사정의 변화로 위 사역은 중단되고, 온라인학교로 앞서 사역하고 있는 하베스트대학과 MOU를 맺고 학교 이름은 트리니티국제대학교(T.G.U)로 바꾸었습니다. 그리고 하베스트대학이 현재 보유하고 있는 모든 시스템(홈페이지, 도서실, 기타 등)을 공유하기로 하여, 세계 여러 나라의 영성을 가진 미래 지도자들을 키우는 무료 신학교로 운영하기로 하였습니다.",
  "Pinned": "고정",
  "Open": "모집중",
  "Closed": "마감",
@@ -437,5 +436,6 @@ window.TGU_KO = {
  "University": "국제대학교",
  "Honorary doctorate conferment group photograph": "명예박사학위 수여식 단체사진",
  "Three leaders holding the university flag": "교기를 들고 있는 세 분의 지도자",
- "Doctoral courses: D.Min and D.Miss.": "박사 과정: D.Min, D.Miss"
+ "Doctoral courses: D.Min and D.Miss.": "박사 과정: D.Min, D.Miss",
+ "The school signed an MOU with Harvest University to share all of Harvest University's existing systems (website, library, and more), and agreed to operate as a tuition-free seminary nurturing future leaders with spiritual depth from nations around the world.": "하베스트대학과 MOU를 맺고 하베스트대학이 현재 보유하고 있는 모든 시스템(홈페이지, 도서실, 기타 등)을 공유하기로 하여, 세계 여러 나라의 영성을 가진 미래 지도자들을 키우는 무료 신학교로 운영하기로 하였습니다."
 };
